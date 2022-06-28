@@ -1,0 +1,110 @@
+/* for PG */
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 420px) {
+}
+
+/* el-popover使用class=form-hint，覆蓋.customize-form-entry span */
+span.form-hint,
+span.form-hint span {
+  display: block;
+  padding: 0;
+}
+
+.el-message.el-message--warning {
+  border-color: #efb475;
+  background-color: #ffeed1;
+
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.el-message.el-message--warning p,
+.el-message.el-message--warning i {
+  color: #782c2c;
+}
+
+.el-loading-mask {
+  z-index: 1990;
+}
+
+.headerModule {
+  z-index: 1991;
+}
+
+.content-popup {
+  z-index: 1992;
+}
+.content-popup .el-loading-mask {
+  border-radius: 10px;
+}
+input.required-empty,
+select.required-empty {
+  border-color: #e60012;
+}
+.required-empty .query-datepicker-YMD-inner {
+  background: rgba(230, 0, 18, 0.1);
+}
+.func-data-modify li {
+  margin-right: 4px;
+}
+.func-data-modify li:nth-last-child(1) {
+  margin-right: 0;
+}
+/* .required-empty {
+  animation: shake 300ms;
+}
+@keyframes shake {
+  25% {
+    transform: translateX(3px);
+  }
+  50% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+} */
+/* 關掉edge預設 */
+input::-ms-reveal {
+  display: none;
+}
+input::-ms-clear {
+  display: none;
+}
+input::-o-reveal {
+  display: none;
+}
+
+.required-empty .table-input-inner {
+  color: #E60012;
+  border-color: #E60012;
+  background-color: transparent;
+}
